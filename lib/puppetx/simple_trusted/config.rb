@@ -18,7 +18,7 @@ class PuppetX::Simple_trusted::Config
 
   def self.load
 
-    config_path = File.join(Puppet[:confdir], "simple_trusted.conf")
+    config_path = File.join(Puppet[:confdir], "simple_trusted.yaml")
 
     if File.exists? config_path
       begin
